@@ -15,9 +15,6 @@ Sistema feito com spring para gerenciar tarefas do cotidiano de forma simples e 
   GET/tarefas
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `id` | `string` | **Obrigatório**. A chave da sua API |
 
 #### Retorna um item
 
