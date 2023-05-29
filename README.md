@@ -56,6 +56,33 @@ Sistema feito com spring para gerenciar tarefas do cotidiano de forma simples e 
     "status": "*atualização que deseja*"  
 }
 
+#### CRIAR UM ITEM
+
+#### PARAMETRO BODY 
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `raw`      | `JSON` |Sucesso se retornar um status code 201 |
+
+
+{  
+    
+    "nome": "*nome da atividade*"
+    "descricao": "*descrição da atividade*"
+    "comeco": "*quando a atividade começará*"
+    "termino": "*quando a atividade deve terminar *"
+    "status": "*status da atividade*"  
+}
+
+#### DELETAR UM ITEM
+
+```http
+  GET/tarefas/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
 
 
 ## Aprendizados
