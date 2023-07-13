@@ -88,5 +88,5 @@ Criação de CRUD e banco de dados H2
 
 ## Melhorias
 
-Irei implantar um banco de dados persistente com o HeidiSQL futuramente e criar um front com REACT
+Irei implantar um banco de dados persistente com o HeidiSQL futuramente e criar um front com Angular
 
